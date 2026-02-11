@@ -1,17 +1,327 @@
 // 直接内嵌代理数据，避免文件读取问题
 const proxyData = {
   "proxy_list": [
-    {"host": "115.114.77.133:9090", "country": "IN", "quality": 4},
-    {"host": "41.223.119.156:3128", "country": "ZM", "quality": 4},
-    {"host": "52.188.28.218:3128", "country": "US", "quality": 4},
-    {"host": "128.199.120.45:9090", "country": "SG", "quality": 4},
-    {"host": "120.92.212.16:7890", "country": "CN", "quality": 4},
-    {"host": "211.230.49.122:3128", "country": "KR", "quality": 4},
-    {"host": "200.174.198.32:8888", "country": "BR", "quality": 4},
-    {"host": "39.185.41.193:5911", "country": "CN", "quality": 4},
-    {"host": "150.107.140.238:3128", "country": "ID", "quality": 4},
-    {"host": "38.183.183.114:999", "country": "PE", "quality": 4}
-  ]
+    {
+      "host": "115.114.77.133:9090",
+      "country": "IN",
+      "quality": 4
+    },
+    {
+      "host": "52.188.28.218:3128",
+      "country": "US",
+      "quality": 4
+    },
+    {
+      "host": "128.199.120.45:9090",
+      "country": "SG",
+      "quality": 4
+    },
+    {
+      "host": "120.92.212.16:7890",
+      "country": "CN",
+      "quality": 4
+    },
+    {
+      "host": "185.191.236.162:3128",
+      "country": "CH",
+      "quality": 4
+    },
+    {
+      "host": "200.174.198.32:8888",
+      "country": "BR",
+      "quality": 4
+    },
+    {
+      "host": "61.76.95.217:40088",
+      "country": "KR",
+      "quality": 4
+    },
+    {
+      "host": "34.96.238.40:8080",
+      "country": "HK",
+      "quality": 4
+    },
+    {
+      "host": "210.223.44.230:3128",
+      "country": "KR",
+      "quality": 4
+    },
+    {
+      "host": "150.107.140.238:3128",
+      "country": "ID",
+      "quality": 4
+    },
+    {
+      "host": "120.92.212.16:8890",
+      "country": "CN",
+      "quality": 4
+    },
+    {
+      "host": "111.79.111.126:3128",
+      "country": "CN",
+      "quality": 4
+    },
+    {
+      "host": "38.194.246.34:999",
+      "country": "MX",
+      "quality": 4
+    },
+    {
+      "host": "193.148.58.51:50082",
+      "country": "FR",
+      "quality": 4
+    },
+    {
+      "host": "103.35.188.243:3128",
+      "country": "US",
+      "quality": 4
+    },
+    {
+      "host": "186.65.104.52:2024",
+      "country": "BR",
+      "quality": 4
+    },
+    {
+      "host": "220.197.44.36:3128",
+      "country": "CN",
+      "quality": 4
+    },
+    {
+      "host": "195.158.8.123:3128",
+      "country": "UZ",
+      "quality": 4
+    },
+    {
+      "host": "209.38.222.145:8080",
+      "country": "DE",
+      "quality": 4
+    },
+    {
+      "host": "20.210.113.32:8123",
+      "country": "JP",
+      "quality": 4
+    },
+    {
+      "host": "16.26.54.32:3129",
+      "country": "US",
+      "quality": 4
+    },
+    {
+      "host": "177.234.217.82:999",
+      "country": "EC",
+      "quality": 4
+    },
+    {
+      "host": "41.185.72.62:3030",
+      "country": "ZA",
+      "quality": 4
+    },
+    {
+      "host": "165.227.5.10:8888",
+      "country": "US",
+      "quality": 4
+    },
+    {
+      "host": "188.130.160.209:80",
+      "country": "KZ",
+      "quality": 4
+    },
+    {
+      "host": "77.246.108.10:21238",
+      "country": "NL",
+      "quality": 4
+    },
+    {
+      "host": "35.225.22.61:80",
+      "country": "US",
+      "quality": 4
+    },
+    {
+      "host": "157.230.106.35:8080",
+      "country": "DE",
+      "quality": 4
+    },
+    {
+      "host": "77.221.141.244:21406",
+      "country": "SE",
+      "quality": 4
+    },
+    {
+      "host": "202.152.44.19:8081",
+      "country": "ID",
+      "quality": 4
+    },
+    {
+      "host": "158.160.215.167:8123",
+      "country": "RU",
+      "quality": 4
+    },
+    {
+      "host": "202.152.44.18:8081",
+      "country": "ID",
+      "quality": 4
+    },
+    {
+      "host": "178.130.47.129:1082",
+      "country": "US",
+      "quality": 4
+    },
+    {
+      "host": "185.233.202.217:5858",
+      "country": "NL",
+      "quality": 4
+    },
+    {
+      "host": "102.164.252.150:8080",
+      "country": "GQ",
+      "quality": 4
+    },
+    {
+      "host": "157.0.142.246:10058",
+      "country": "CN",
+      "quality": 4
+    },
+    {
+      "host": "152.42.170.187:9090",
+      "country": "SG",
+      "quality": 4
+    },
+    {
+      "host": "101.43.255.96:80",
+      "country": "CN",
+      "quality": 4
+    },
+    {
+      "host": "146.190.80.158:9090",
+      "country": "SG",
+      "quality": 4
+    },
+    {
+      "host": "15.160.134.84:2529",
+      "country": "SE",
+      "quality": 4
+    },
+    {
+      "host": "45.22.209.157:8888",
+      "country": "US",
+      "quality": 4
+    },
+    {
+      "host": "190.12.150.244:999",
+      "country": "EC",
+      "quality": 4
+    },
+    {
+      "host": "201.150.116.3:999",
+      "country": "MX",
+      "quality": 4
+    },
+    {
+      "host": "173.212.246.157:3128",
+      "country": "FR",
+      "quality": 4
+    },
+    {
+      "host": "34.14.143.185:3128",
+      "country": "IN",
+      "quality": 4
+    },
+    {
+      "host": "103.157.200.126:3128",
+      "country": "PK",
+      "quality": 4
+    },
+    {
+      "host": "109.73.195.10:8888",
+      "country": "RU",
+      "quality": 4
+    },
+    {
+      "host": "38.211.76.201:999",
+      "country": "CO",
+      "quality": 4
+    },
+    {
+      "host": "200.125.170.108:999",
+      "country": "DO",
+      "quality": 4
+    },
+    {
+      "host": "157.20.244.117:8821",
+      "country": "ID",
+      "quality": 4
+    },
+    {
+      "host": "81.70.169.194:80",
+      "country": "CN",
+      "quality": 4
+    },
+    {
+      "host": "121.40.231.103:7890",
+      "country": "CN",
+      "quality": 4
+    },
+    {
+      "host": "106.14.203.63:3333",
+      "country": "CN",
+      "quality": 4
+    },
+    {
+      "host": "18.179.12.21:9160",
+      "country": "NL",
+      "quality": 4
+    },
+    {
+      "host": "18.192.100.176:9098",
+      "country": "US",
+      "quality": 4
+    },
+    {
+      "host": "94.177.131.33:3128",
+      "country": "JP",
+      "quality": 4
+    },
+    {
+      "host": "200.59.191.232:999",
+      "country": "VE",
+      "quality": 4
+    },
+    {
+      "host": "181.78.202.28:8080",
+      "country": "EC",
+      "quality": 4
+    },
+    {
+      "host": "200.59.191.235:999",
+      "country": "VE",
+      "quality": 4
+    },
+    {
+      "host": "160.250.4.245:1",
+      "country": "VN",
+      "quality": 4
+    },
+    {
+      "host": "160.250.4.13:1",
+      "country": "VN",
+      "quality": 4
+    },
+    {
+      "host": "160.250.5.22:1",
+      "country": "VN",
+      "quality": 4
+    },
+    {
+      "host": "103.231.14.36:25010",
+      "country": "IN",
+      "quality": 4
+    },
+    {
+      "host": "14.225.71.183:25565",
+      "country": "VN",
+      "quality": 4
+    }
+    ]
 };
 
 export const handler = async (event: any, context: any) => {
