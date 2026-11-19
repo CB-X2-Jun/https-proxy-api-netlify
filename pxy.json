@@ -216,6 +216,11 @@
       "quality": 4
     },
     {
+      "host": "14.29.168.215:10443",
+      "country": "CN",
+      "quality": 4
+    },
+    {
       "host": "138.197.69.103:443",
       "country": "US",
       "quality": 4
@@ -378,6 +383,11 @@
     {
       "host": "168.167.220.28:443",
       "country": "BW",
+      "quality": 4
+    },
+    {
+      "host": "190.6.65.226:443",
+      "country": "CU",
       "quality": 4
     },
     {
